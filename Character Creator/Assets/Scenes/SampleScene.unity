@@ -479,6 +479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a96c669ad4ab2474e95719f4a6aa132e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ArmorRenderer: {fileID: 483747665}
 --- !u!1 &1074639113
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,7 +562,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1074639116}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 859753752}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: SetArmor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1074639116
 MonoBehaviour:
   m_ObjectHideFlags: 0
