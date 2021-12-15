@@ -2590,8 +2590,14 @@ MonoBehaviour:
   - {fileID: 759355196}
   - {fileID: 1316140327}
   - {fileID: 100919098}
-  ArmorButtons: []
-  WeaponRenderer: {fileID: 483747665}
+  ArmorButtons:
+  - {fileID: 1074639115}
+  - {fileID: 178445379}
+  - {fileID: 444819040}
+  - {fileID: 154820763}
+  - {fileID: 227173558}
+  - {fileID: 793436161}
+  WeaponRenderer: {fileID: 1234812007}
 --- !u!1 &889559324
 GameObject:
   m_ObjectHideFlags: 0
